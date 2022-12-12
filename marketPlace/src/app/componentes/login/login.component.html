@@ -1,1 +1,14 @@
-<p>login works!</p>
+<section>
+    <form>
+        <label for="nombre">Nombre de Usuario:</label>
+        <input [(ngModel)]="nombre" name="nombre" type="text" placeholder="Nombre de Usuario">
+        <br>
+        <label for="contraseya">Contraseña:</label>
+        <input [(ngModel)]="contraseya" name="contraseya" type="text" placeholder="Contraseña">
+        <br>
+        <button (click)="loginUser()" type="button">Confirmar</button>
+        <hr>
+        <p>MarketPlace EOI</p>
+    </form>
+</section>
+

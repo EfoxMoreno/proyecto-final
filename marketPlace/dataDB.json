@@ -1,0 +1,9 @@
+{
+    "usuarios":[
+        {
+            "id":1,
+            "nombre":"Juanito Pato",
+            "contraseya":"alicante"
+        }
+    ]
+}

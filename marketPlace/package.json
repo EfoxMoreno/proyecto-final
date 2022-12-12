@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "clase":"ng g class clases/Usuario",
-    "componente":"ng g component componentes/Login"
+    "componente":"ng g component componentes/Login",
+    "servicios":"ng g service servicios/UsuariosService"
   },
   "private": true,
   "dependencies": {
